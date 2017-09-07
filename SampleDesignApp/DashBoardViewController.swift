@@ -19,9 +19,8 @@ class DashBoardViewController: UIViewController,UITableViewDelegate,UITableViewD
     @IBOutlet weak var btnSearch: UIButton!
     @IBOutlet weak var btnContinerView: UIView!
     @IBOutlet weak var viewTop: UIView!
+    
     weak var searchViewController:SearchViewController!
-    
-    
     
     var picture:[UIImage] =
         [
