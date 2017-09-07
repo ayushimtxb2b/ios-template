@@ -21,6 +21,8 @@ class DashBoardViewController: UIViewController,UITableViewDelegate,UITableViewD
     @IBOutlet weak var viewTop: UIView!
     weak var searchViewController:SearchViewController!
     
+    
+    
     var picture:[UIImage] =
         [
         UIImage(named: "12")!,
